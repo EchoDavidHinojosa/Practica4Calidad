@@ -1,5 +1,7 @@
 package miHexagonaldb_driven_adapter.jparepository;
 
-public interface HAAJpaRepository {
-
+public interface HAAJpaRepository extends JpaRepository<BookEntity, Long> {
+	
+	
+	
 }

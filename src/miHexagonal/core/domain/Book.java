@@ -6,7 +6,7 @@ public class Book {
     //constructors //getters and setters ç
     
     
-    publci Book (long in ,String name) {
+    public Book (long in ,String name) {
     	id=in;
     	this.name=name;
     }

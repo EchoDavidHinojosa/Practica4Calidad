@@ -1,5 +1,8 @@
 package miHexagonal.core.domain;
 
-public class BookDoesNotExistException {
+public class BookDoesNotExistException extends RuntimeException{
 
+	
+	
+	
 }

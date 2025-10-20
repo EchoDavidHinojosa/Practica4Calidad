@@ -4,4 +4,8 @@ import miHexagonal.core.domain.Book;
 
 public interface BookService {
 Book getBook(Long id);
+
+public Book getBook(int id);
+	
+
 }
