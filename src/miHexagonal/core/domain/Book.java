@@ -1,15 +1,17 @@
 package miHexagonal.core.domain;
 
 public class Book {
-    private Long id;
-    private String name;
-    //constructors //getters and setters ç
-    
-    
-    public Book (long in ,String name) {
-    	id=in;
-    	this.name=name;
-    }
+	private Long id;
+	private String name;
+	
+	
+	
+	public Book(Long id, String name) {
+		
+		this.id = id;
+		this.name = name;
+	}
+	
 	public Long getId() {
 		return id;
 	}
@@ -22,4 +24,5 @@ public class Book {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 }
